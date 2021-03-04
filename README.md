@@ -2,14 +2,14 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![RedSec Network Topology](Project1/P1/Images/my_azure2.png)
+![RedSec Network Topology](ELKthis/Images/my_azure2.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Yaml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - Project1/P1/Yaml_scripts/first-play.yml
-  - Project1/P1/Yaml_scripts/elk_install.yml
-  - Project1/P1/Yaml_scripts/filebeat-playbook.yml
-  - Project1/P1/Yaml_scripts/metricbeat-playbook.yml
+  - ELKthis/Yaml scripts/first-play.yml
+  - ELKthis/Yaml scripts/elk_install.yml
+  - ELKthis/Yaml scripts/filebeat-playbook.yml
+  - ELKthis/Yaml scripts/metricbeat-playbook.yml
 
 This document contains the following details:
 - Description of the Topology
@@ -78,7 +78,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Proof of Successfull Deployment](\Project1\P1\Images\elkcontainer.png)
+![Proof of Successfull Deployment](\ELKthis\Images\elkcontainer.png)
 
 ## Target Machines & Beats
 This ELK server is configured to monitor the following machines:
