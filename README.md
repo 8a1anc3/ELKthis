@@ -6,10 +6,10 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Yaml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - ELKthis/Yaml scripts/first-play.yml
-  - ELKthis/Yaml scripts/elk_install.yml
-  - ELKthis/Yaml scripts/filebeat-playbook.yml
-  - ELKthis/Yaml scripts/metricbeat-playbook.yml
+  - first-play.yml
+  - elk_install.yml
+  - filebeat-playbook.yml
+  - metricbeat-playbook.yml
 
 This document contains the following details:
 - Description of the Topology
@@ -109,7 +109,7 @@ This ELK server is configured to monitor the following machines:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the elk_install.yml file to /etc/ansible/.
+- Copy the elk_install.yml file to /etc/ansible/
 - Update the /etc/ansible/hosts file to reflect your new group and include the IP addr. of the ELK VM
 - Update the /etc/ansible/ansible.cfg file to reflect the desired login name and IP addr. of the ELK VM
 - Run the playbook, and navigate to http://[ELK-PUBLIC-IP]:5601/app/kibana#
