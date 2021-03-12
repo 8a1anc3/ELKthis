@@ -47,7 +47,7 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump-Box Provisioner can accept connections from the Internet. Access to this machine is only allowed from the following IP address:
-- Local Workstation: 73.232.8.224
+- Local Workstation: Local IP
 This connection is secured using my local workstation's public ssh key
 
 Machines within the network can only be accessed by the ansible container located on the jump box.
@@ -57,7 +57,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump-Box |        Yes          |     73.232.8.224     |
+| Jump-Box |        Yes          |      Local IP        |
 | Elk-Head |         No          |      10.0.0.4        |
 | Web-1    |         No          |      10.0.0.11       |
 | Web-2    |         No          |      10.0.0.12       |
